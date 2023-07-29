@@ -1,0 +1,233 @@
+{
+  "resumeTitle": {
+    "title": "Leo | 개발잡부 | 백발의 코더가 되고 싶은 개발자"
+  },
+
+  "information": {
+    "name": "박성민",
+    "contact": [
+      { "id": 0, "name": "Email", "href": "magicsm23@gmail.com", "isEmail": true },
+      { "id": 1, "name": "Github", "href": "https://github.com/leoPlayground" }
+    ]
+  },
+
+  "workExperience": [
+    {
+      "id": 0,
+      "name": "팜피(주)",
+      "position": "Full-stack Developer",
+      "period": ["2020.09", "2021. 12"]
+    },
+    {
+      "id": 1,
+      "name": "위셀글로벌(주)",
+      "position": "Full-stack Developer",
+      "period": ["2022.01", "2022.03"]
+    },
+    {
+      "id": 2,
+      "name": "나길테크(주)",
+      "position": "Full-stack Developer",
+      "period": ["2022.03", "2022.10"]
+    },
+    {
+      "id": 3,
+      "name": "Kakao Mobility Parking & Space",
+      "position": "Front-end Developer",
+      "period": ["2022.11", "now"]
+    }
+  ],
+
+  "project": [
+    {
+      "id": 0,
+      "name": "세계 한인무역협회 (OKTA)",
+      "description": "해외 한인 무역인 네트워크 웹사이트 지원 사업별 웹 사이트 개발",
+      "webUrl": "https://www.okta.net/okta/",
+      "repoUrl": "",
+      "isTeam": true,
+      "period": ["2020. 10", "2021. 04"],
+      "stack": ["JAVA", "Spring", "JSP", "Vue.js", "JavaScript", "MySQL"]
+    },
+    {
+      "id": 1,
+      "name": "DTPIA모바일 APP",
+      "description": "기존에 운영 중인 웹사이트를 기반으로 모바일 웹 및 어플리케이션 제작",
+      "webUrl": "https://m.dtpia.com/#/",
+      "repoUrl": "",
+      "isTeam": true,
+      "period": ["2021. 04", "2021. 07"],
+      "stack": ["node.js", "express.js", "Vue.js", "MsSQL"]
+    },
+    {
+      "id": 2,
+      "name": "한국 민속 어린이 박물관 웹/앱 교육 게임 컨텐츠",
+      "description": "한국 민속 어린이 박물관 상설 교육 게임 컨텐츠 '아다초의 대탈출' 제작",
+      "webUrl": "https://nfm-p3.apoc.day/#/",
+      "repoUrl": "",
+      "isTeam": true,
+      "period": ["2021. 08", "2021. 09"],
+      "stack": ["node.js", "express.js", "Vue.js", "Parser3", "MySQL"]
+    },
+    {
+      "id": 3,
+      "name": "B2B 위탁판매 플랫폼 '샐러매치'",
+      "description": "기존에 운영 중인 웹사이트를 기반으로 웹/앱 전체리뉴얼",
+      "webUrl": "https://sellermatch.co.kr/feed/main.do",
+      "repoUrl": "",
+      "isTeam": true,
+      "period": ["2021. 11", "2022. 01"],
+      "stack": ["JAVA", "JSP", "MySQL"]
+    },
+    {
+      "id": 4,
+      "name": "한그루 프론트앤드",
+      "description": "무료 한글 교육사이트로 화면에 써보고, 자/모 발음을 들어볼 수 있는 서비스 제공",
+      "webUrl": "https://www.hangeulu.kr/",
+      "repoUrl": "",
+      "isTeam": true,
+      "period": ["2022. 03", "2022. 10"],
+      "stack": ["React.js", "Wordpress", "PHP"]
+    },
+    {
+      "id": 5,
+      "name": "NTB 기술 관계망",
+      "description": "한국산업기술에 등록된 공공기술을 다이어그램으로 노출 및 분석",
+      "webUrl": "https://www.ntb.kr/",
+      "repoUrl": "",
+      "isTeam": true,
+      "period": ["2022. 06", "2022. 08"],
+      "stack": ["React.js"]
+    },
+    {
+      "id": 6,
+      "name": "KPS(Kakao Parking System)",
+      "description": "카카오 파킹 시스템 내 실시간 관제 기능 제공",
+      "isTeam": true,
+      "period": ["2022. 10", "2022. 10"],
+      "stack": ["Vue.js", "Nuxt.js"]
+    },
+    {
+      "id": 7,
+      "name": "냥씨알림 (AWC-Alert Weather Cat)",
+      "description": "원하는 날, 원하는 시간에 날씨 알림을 받을 수 있는 안드로이드/iOS 어플리케이션",
+      "webUrl": "https://awc.teamexithere.com",
+      "isTeam": false,
+      "period": ["2023. 6", "2023. 8"],
+      "stack": ["Flutter", "Kotlin", "Swift"]
+    },
+    {
+      "id": 8,
+      "name": "KPS Kiosk",
+      "description": "KSP - KICC Android 주차 무인정산기",
+      "webUrl": "",
+      "isTeam": true,
+      "period": ["2023. 04", "2023. 05"],
+      "stack": ["Android", "Kotlin", "Vue.js", "Nuxt.js"]
+    }
+  ],
+
+  "other": [
+    {
+      "id": 0,
+      "name": "아산나눔재단",
+      "description": "WordPress 블로그형 사이트 테마 제작 및 유지보수",
+      "repoUrl": "",
+      "webUrl": "https://asan-nanum.org"
+    },
+    {
+      "id": 1,
+      "name": "아산재단 기업가정신 리뷰",
+      "description": "WordPress 블로그형 사이트 테마 제작 및 유지보수",
+      "repoUrl": "",
+      "webUrl": "https://asan-aer.org"
+    },
+    {
+      "id": 2,
+      "name": "정법시대 문화재단",
+      "description": "WordPress 블로그형 사이트 테마 제작 및 유지보수",
+      "repoUrl": "",
+      "webUrl": "https://jbculture.org"
+    },
+    {
+      "id": 3,
+      "name": "스토리메이커",
+      "description": "WordPress 블로그형 사이트 테마 제작 및 유지보수",
+      "repoUrl": "",
+      "webUrl": "https://storymaker-company.com"
+    },
+    {
+      "id": 4,
+      "name": "인천광역시 교육청 '마을엔'",
+      "description": "WordPress 블로그형 사이트 테마 제작 및 유지보수\nReact.js + Kakao Map API 활용하여 맵핑기능 구현",
+      "repoUrl": "",
+      "webUrl": "https://maeulngdo.ice.go.kr"
+    },
+    {
+      "id": 5,
+      "name": "장코디",
+      "description": "Cafe24기반 쇼핑몰 사이트 제작\nGSAP 라이브러리 사용하여 인터렉티브 효과 구현",
+      "webUrl": "https://jangcodi.com"
+    }
+  ],
+
+  "activity": [
+    {
+      "id": 0,
+      "name": "한국방송통신대학교",
+      "period": ["2022. 08", "재학중"],
+      "description": "컴퓨터과학과"
+    }
+  ],
+
+  "education": [
+    {
+      "id": 0,
+      "name": "코리아 IT 아카데미",
+      "period": ["2020. 02", "2020. 08"],
+      "description": "- C언어로 컴퓨터 프로그래밍 입문\n- JAVA MVC/MVC2 백앤드\n- JSP 프론트앤드\n- OracleDB로 CRUD관리\n- Android Studio 모바일 앱 제작"
+    }
+  ],
+
+  "certificate": [
+    {
+      "id": 0,
+      "name": "MS Azure Fundamentals",
+      "date": "2023. 01. 28",
+      "organizer": "Microsoft"
+    }
+  ],
+
+  "skill": [
+    {
+      "id": 0,
+      "name": "Language",
+      "description": "JAVA, JavaScript, PHP, Node.js, Dart"
+    },
+    {
+      "id": 1,
+      "name": "Front-End",
+      "description": "JQuery, React.js, Next.js, Vue.js, Nuxt.js, Phaser.js, Flutter, Wordpress, Bootstrap, Tailwind"
+    },
+    {
+      "id": 2,
+      "name": "Back-End",
+      "description": "Spring, E-Gov Framework, Express.js, Wordpress"
+    },
+    {
+      "id": 3,
+      "name": "Platform",
+      "description": "Web, Android, iOS"
+    },
+    {
+      "id": 4,
+      "name": "DevOps",
+      "description": "Amazon Web Service, Google Firebase, Github, Vultr, Jenkins"
+    },
+    {
+      "id": 5,
+      "name": "Tools",
+      "description": "IntelliJ IDEA, WebStorm, Android Studio, Datagrip, Xcode, Figma, Zeplin"
+    }
+  ]
+}
