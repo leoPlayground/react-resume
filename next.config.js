@@ -1,6 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  basePath: "/leoPlayground",
+  assetPrefix: process.env.NODE_ENV === "production" ? "https://leoPlayground.github.io/react-resume" : "",
+  trailingSlash: true,
+  images: {
+    unoptimized: true,
+  },
   webpack: (config) => {
     config.module.rules.push({
       test: /\.md/,

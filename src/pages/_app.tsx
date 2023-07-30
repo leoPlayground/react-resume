@@ -2,6 +2,8 @@ import "@/styles/globals.css";
 import { DefaultSeo } from "next-seo";
 import { ThemeProvider } from "next-themes";
 import type { AppProps } from "next/app";
+import {ResumeProvider} from "@/components/context/context";
+import {prefix} from "@/config/config";
 
 const DEFAULT_SEO = {
   title: "Leo Park | Front-End Dev",
@@ -46,12 +48,12 @@ const DEFAULT_SEO = {
 
 const App = ({ Component, pageProps }: AppProps) => {
   return (
-    <>
+    <ResumeProvider value={{prefix}}>
       <DefaultSeo {...DEFAULT_SEO} />
       <ThemeProvider attribute="class">
         <Component {...pageProps} />
       </ThemeProvider>
-    </>
+    </ResumeProvider>
   );
 };
 
