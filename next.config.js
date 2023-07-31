@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
+const isProduction = process.env.NODE_ENV === "production";
 const nextConfig = {
   reactStrictMode: true,
-  basePath: "/leoPlayground",
-  assetPrefix: process.env.NODE_ENV === "production" ? "https://leoPlayground.github.io/react-resume" : "",
+  basePath: isProduction ? "/leoPlayground" : "",
+  assetPrefix: isProduction ? "https://leoPlayground.github.io/react-resume" : " ",
   trailingSlash: true,
   images: {
     unoptimized: true,
