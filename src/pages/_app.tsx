@@ -8,11 +8,11 @@ import {prefix} from "@/config/config";
 const DEFAULT_SEO = {
   title: "Leo Park | Front-End Dev",
   description: "안녕하세요, 개발잡부. 프론트엔드 개발자 박성민입니다.",
-  canonical: "https://www.naver.com/",
+  canonical: "https://leoplayground.github.io/react-resume/",
   openGraph: {
     type: "website",
     locale: "ko_KR",
-    url: "https://www.naver.com/",
+    url: "https://leoplayground.github.io/react-resume/",
     title: "Leo Park | Front-End Dev",
     site_name: "Leo Park | Front-End Dev",
     images: [
@@ -32,11 +32,11 @@ const DEFAULT_SEO = {
   ],
   additionalMetaTags: [
     {
-      name: "application-name",
+      name: "Leo Park's Resume",
       content: "Leo Park | Front-End Dev",
     },
     {
-      name: "msapplication-tooltip",
+      name: "Leo Park's Resume",
       content: "Leo Park | Front-End Dev",
     },
     {
