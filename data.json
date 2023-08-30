@@ -118,8 +118,17 @@
     },
     {
       "id": 8,
+      "name": "인천공항 발렛 공식 예약 홈페이지",
+      "description": "MVS - 인천공항 T2 공식 발렛 예약 홈페이지",
+      "webUrl": "https://valet.amanopark.co.kr/",
+      "isTeam": true,
+      "period": ["2023. 02", "2023. 02"],
+      "stack": ["Vue.js", "Nuxt.js"]
+    },
+    {
+      "id": 9,
       "name": "KPS Kiosk",
-      "description": "KSP - KICC Android 주차 무인정산기",
+      "description": "KPS - KICC Android 주차 무인정산기",
       "webUrl": "",
       "isTeam": true,
       "period": ["2023. 04", "2023. 05"],
@@ -171,16 +180,22 @@
     }
   ],
 
-  "activity": [
+  "education": [
     {
       "id": 0,
+      "name": "서울종합예술학교",
+      "period": ["2009. 02", "2015.03"],
+      "description": "공연기획/연출과"
+    },
+    {
+      "id": 1,
       "name": "한국방송통신대학교",
       "period": ["2022. 08", "재학중"],
       "description": "컴퓨터과학과"
     }
   ],
 
-  "education": [
+  "activity": [
     {
       "id": 0,
       "name": "코리아 IT 아카데미",

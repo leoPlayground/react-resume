@@ -8,9 +8,9 @@
     "predeploy": "npm run build",
     "deploy": "touch out/.nojekyll && gh-pages -d out --dotfiles"
 ```
+
 ```javascript
 #next.config.js
-
     images: {
         unoptimized: true,
     }
