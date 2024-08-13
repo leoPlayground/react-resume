@@ -133,6 +133,15 @@
       "isTeam": true,
       "period": ["2023. 04", "2023. 05"],
       "stack": ["Android", "Kotlin", "Vue.js", "Nuxt.js"]
+    },
+    {
+      "id": 10,
+      "name": "Earln",
+      "description": "스마트 빌딩 물류 컨시어지 서비스, 얼른",
+      "webUrl": "https://earln.co.kr/",
+      "isTeam": true,
+      "period": ["2023. 11", ""],
+      "stack": ["Vue.js", "Nuxt.js"]
     }
   ],
 
@@ -184,13 +193,13 @@
     {
       "id": 0,
       "name": "서울종합예술학교",
-      "period": ["2009. 02", "2015.03"],
+      "period": ["2009. 02", "2015. 03"],
       "description": "공연기획/연출과"
     },
     {
       "id": 1,
       "name": "한국방송통신대학교",
-      "period": ["2022. 08", "재학중"],
+      "period": ["2022. 08", "2024. 08"],
       "description": "컴퓨터과학과"
     }
   ],
