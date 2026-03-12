@@ -34,7 +34,13 @@
       "id": 3,
       "name": "Kakao Mobility Parking & Space",
       "position": "Front-end Developer",
-      "period": ["2022.11", "now"]
+      "period": ["2022.11", "2025.02"]
+    },
+    {
+      "id": 4,
+      "name": "(주) 메디밋",
+      "position": "CEO",
+      "period": ["2025. 03", "now"]
     }
   ],
 
@@ -142,6 +148,24 @@
       "isTeam": true,
       "period": ["2023. 11", ""],
       "stack": ["Vue.js", "Nuxt.js"]
+    },
+    {
+      "id": 11,
+      "name": "Medimeet",
+      "description": "AI 기반 의료 정보 가이드 플랫폼",
+      "webUrl": "https://medimeet.com/",
+      "isTeam": true,
+      "period": ["2025. 03", "now"],
+      "stack": ["Next.js", "React", "express.js", "Python", "MySQL", "Neo4j"]
+    },
+    {
+      "id": 12,
+      "name": "CaretocRX",
+      "description": "기능의학 기반 헬스케어 플랫폼",
+      "webUrl": "https://caretoc.com/",
+      "isTeam": true,
+      "period": ["2025. 03", "now"],
+      "stack": []
     }
   ],
 
