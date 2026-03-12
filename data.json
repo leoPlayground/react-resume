@@ -153,7 +153,7 @@
       "id": 11,
       "name": "Medimeet",
       "description": "AI 기반 의료 정보 가이드 플랫폼",
-      "webUrl": "https://medimeet.com/",
+      "webUrl": "https://medimeet.co.kr/",
       "isTeam": true,
       "period": ["2025. 03", "now"],
       "stack": ["Next.js", "React", "express.js", "Python", "MySQL", "Neo4j"]
