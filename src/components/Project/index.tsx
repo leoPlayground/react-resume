@@ -6,7 +6,7 @@ import { DataProps } from "@/types";
 const Project = ({ project }: Pick<DataProps, "project">) => {
   return (
     <div>
-      <SectionTitle>Selected Work</SectionTitle>
+      <SectionTitle>Applied Work</SectionTitle>
       <div className="flex flex-col gap-16">
         {[...project]
           .reverse()

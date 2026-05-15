@@ -6,22 +6,22 @@ import { ResumeProvider } from "@/components/context/context";
 import { prefix } from "@/config/config";
 
 const DEFAULT_SEO = {
-  title: "박성민 | AI 헬스케어 기술 창업자",
+  title: "Leo Park | 의료 AI 시스템을 고민하는 Founder",
   description:
-    "메디밋을 운영하며 AI 건강 분석과 안전 필터링 그리고 지식그래프 기반 추천 시스템을 설계하는 풀스택 아키텍트입니다.",
+    "고령 만성질환자의 복약 안전 문제를 출발점으로 의료 데이터를 관계와 맥락 중심으로 해석하는 AI 헬스케어 Founder입니다.",
   canonical: "https://leoplayground.github.io/react-resume/",
   openGraph: {
     type: "website",
     locale: "ko_KR",
     url: "https://leoplayground.github.io/react-resume/",
-    title: "박성민 | AI 헬스케어 기술 창업자",
-    site_name: "박성민 | AI 헬스케어 기술 창업자",
+    title: "Leo Park | 의료 AI 시스템을 고민하는 Founder",
+    site_name: "Leo Park | 의료 AI 시스템을 고민하는 Founder",
     images: [
       {
         url: "/share.png",
         width: 285,
         height: 167,
-        alt: "박성민 | AI 헬스케어 기술 창업자",
+        alt: "Leo Park | 의료 AI 시스템을 고민하는 Founder",
       },
     ],
   },
@@ -34,7 +34,7 @@ const DEFAULT_SEO = {
   additionalMetaTags: [
     {
       name: "Leo Park's Resume",
-      content: "AI Healthcare Founder & Full-stack Architect",
+      content: "Healthcare AI Founder and Systems Thinker",
     },
     {
       name: "Leo Park's Resume",

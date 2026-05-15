@@ -41,9 +41,10 @@ const Home: NextPage<DataProps> = ({
         <Skill skill={skill} />
         <Project project={project} />
         <WorkExperience workExperience={workExperience} />
-        <Education education={education} />
-        <Certificate certificate={certificate} />
-        {/*<Award award={award} />*/}
+        {/* Education and Certificate hidden to maintain founder story flow */}
+        {/* <Education education={education} /> */}
+        {/* <Certificate certificate={certificate} /> */}
+        {/* <Award award={award} /> */}
       </Layout>
       <Footer contact={information.contact} name={information.name} />
     </>

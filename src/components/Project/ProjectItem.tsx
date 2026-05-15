@@ -1,64 +1,42 @@
-import Image from "next/image";
-import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
-
-import Links from "./Links";
-
 import { ProjectProps } from "@/types";
 
 const ProjectItem = ({
   name,
   description,
-  repoUrl,
-  webUrl,
-  period,
-  stack,
-  markdown,
-  imgSrc,
+  caseStudy,
 }: ProjectProps) => {
   return (
-    <div className="flex flex-col gap-3 md:flex-row md:gap-0">
-      <div className="flex flex-col gap-2">
-        <div className="mr-4 flex items-center gap-5 md:flex-col md:items-start">
-          {imgSrc && (
-            <Image
-              src={imgSrc}
-              width="200"
-              height="200"
-              alt={name}
-              className="object-cover rounded-lg border-[1px] border-GRAY_LIGHT dark:border-white border-solid w-24 h-24"
-            />
-          )}
-          <div className="flex flex-col gap-2">
-            <div className="w-48">
-              <h3>{name}</h3>
-              <div className="flex flex-col">
-                <span className="period">{`${period[0]} - ${period[1]}`}</span>
-              </div>
+    <article className="group flex flex-col gap-6 md:grid md:grid-cols-[280px_1fr] md:gap-12 border-t border-GRAY_EXTRAHEAVY pt-12 mt-12 first:mt-0 first:border-0 first:pt-0">
+      <div className="flex flex-col gap-4">
+        <h3 className="text-2xl font-medium tracking-tight text-white">{name}</h3>
+        {!caseStudy && description && (
+          <p className="text-base leading-relaxed text-GRAY_LIGHT">{description}</p>
+        )}
+      </div>
+
+      <div className="flex w-full flex-col">
+        {caseStudy ? (
+          <div className="grid gap-10">
+            <div className="flex flex-col gap-3">
+              <h5 className="text-xs font-bold tracking-[0.2em] text-PRIMARY_HEAVY uppercase">01. Problem</h5>
+              <p className="text-lg leading-relaxed text-GRAY_LIGHT">{caseStudy.problem}</p>
             </div>
-            <Links repoUrl={repoUrl} webUrl={webUrl} />
+            <div className="flex flex-col gap-3">
+              <h5 className="text-xs font-bold tracking-[0.2em] text-PRIMARY_LIGHT uppercase">02. Approach</h5>
+              <p className="text-lg leading-relaxed text-GRAY_LIGHT">{caseStudy.approach}</p>
+            </div>
+            <div className="flex flex-col gap-3 border-l-2 border-white pl-5">
+              <h5 className="text-xs font-bold tracking-[0.2em] text-white uppercase">03. Result</h5>
+              <p className="text-lg font-medium leading-relaxed text-white">{caseStudy.result}</p>
+            </div>
           </div>
-        </div>
-      </div>
-      <div className="interactive-line markdown flex w-full flex-col gap-2 md:border-l-[1px] md:border-solid md:border-GRAY_EXTRAHEAVY md:pl-4">
-        <div>
-          <blockquote className="whitespace-pre-wrap">{`${description}`}</blockquote>
-          <div className="flex gap-1 flex-wrap">
-            {stack.map((stack) => (
-              <span
-                key={stack}
-                className=" bg-BLACK dark:bg-white  py-[2px] px-1.5 rounded-md text-xs font-medium font-mono whitespace-nowrap text-white dark:text-BLACK"
-              >
-                {stack}
-              </span>
-            ))}
+        ) : (
+          <div className="text-lg leading-relaxed text-GRAY_LIGHT">
+            {description}
           </div>
-        </div>
-        <ReactMarkdown remarkPlugins={[remarkGfm]}>
-          {markdown ?? ""}
-        </ReactMarkdown>
+        )}
       </div>
-    </div>
+    </article>
   );
 };
 

@@ -17,22 +17,31 @@ export interface BrandingProps {
     title: string;
     paragraphs: string[];
   };
-  coreService: {
-    name: string;
+  problem: {
     title: string;
     description: string;
-    focus: {
+    flow: {
       id: number;
       title: string;
       description: string;
     }[];
-    architecture: string[];
   };
-  impact: {
+  thinkingModel: {
+    title: string;
+    description: string;
+    layers: {
+      id: number;
+      title: string;
+      description: string;
+    }[];
+    keywords: string[];
+  };
+  principles: {
     id: number;
     title: string;
     description: string;
   }[];
+  quotes?: string[];
 }
 
 export interface WorkExperienceProps {
@@ -58,6 +67,11 @@ export interface ProjectProps {
   stack: string[];
   markdown?: string;
   imgSrc?: string;
+  caseStudy?: {
+    problem: string;
+    approach: string;
+    result: string;
+  };
 }
 
 export interface OtherProps {
