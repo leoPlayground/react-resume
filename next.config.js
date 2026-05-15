@@ -2,8 +2,7 @@
 const isProduction = process.env.NODE_ENV === "production";
 const nextConfig = {
   reactStrictMode: true,
-  basePath: isProduction ? "/leoPlayground" : "",
-  assetPrefix: isProduction ? "https://leoPlayground.github.io/react-resume" : " ",
+  basePath: isProduction ? "/react-resume" : "",
   trailingSlash: true,
   images: {
     unoptimized: true,
@@ -21,5 +20,9 @@ const nextConfig = {
     return config;
   },
 };
+
+if (isProduction) {
+  nextConfig.assetPrefix = "https://leoplayground.github.io/react-resume";
+}
 
 module.exports = nextConfig;

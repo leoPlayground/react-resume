@@ -7,13 +7,11 @@ const Other = ({ other }: Pick<DataProps, "other">) => {
   return (
     <>
       <div>
-        <SectionTitle>Others</SectionTitle>
+        <SectionTitle>Client Work</SectionTitle>
         <div className="flex flex-col gap-24">
-          {[...other]
-            .reverse()
-            .map((other) => (
-              <OtherItem key={other.id} {...other} />
-            ))}
+          {[...other].reverse().map((other) => (
+            <OtherItem key={other.id} {...other} />
+          ))}
         </div>
       </div>
     </>

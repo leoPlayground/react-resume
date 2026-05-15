@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    @apply bg-BLACK;
+  }
+
   h1 {
     @apply font-semibold text-5xl py-2;
   }
@@ -49,7 +53,7 @@
   }
 
   blockquote {
-    @apply bg-GRAY_LIGHT py-4 px-6 my-2 rounded-md w-full dark:bg-GRAY_EXTRAHEAVY;
+    @apply bg-[#151a1f] py-4 px-6 my-2 rounded-md w-full text-GRAY_LIGHT;
   }
 
   ul,
@@ -61,11 +65,108 @@
     @apply pt-2;
   }
 
-  .period{
-    color: #9B9B9B;
+  .period {
+    color: #9b9b9b;
   }
 
-  .title{
-    color: #FFCD02;
+  .title {
+    color: #c3fae8;
+  }
+}
+
+@layer components {
+  .interactive-card {
+    @apply transition duration-300 ease-out;
+  }
+
+  .interactive-card:hover {
+    @apply -translate-y-0.5 border-PRIMARY_HEAVY bg-[#151c21];
+    box-shadow: 0 16px 40px rgba(8, 127, 91, 0.12);
+  }
+
+  .interactive-line {
+    @apply transition duration-300 ease-out;
+  }
+
+  .interactive-line:hover {
+    @apply border-PRIMARY_HEAVY;
+  }
+
+  .system-map {
+    background-image: linear-gradient(
+        rgba(195, 250, 232, 0.04) 1px,
+        transparent 1px
+      ),
+      linear-gradient(90deg, rgba(195, 250, 232, 0.04) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+
+  .pipeline-node {
+    animation: node-signal 4s ease-in-out infinite;
+  }
+
+  .pipeline-line {
+    position: absolute;
+    left: 20px;
+    bottom: -13px;
+    width: 1px;
+    height: 13px;
+    background: linear-gradient(
+      to bottom,
+      rgba(195, 250, 232, 0.8),
+      rgba(195, 250, 232, 0)
+    );
+    overflow: hidden;
+  }
+
+  .pipeline-line::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #c3fae8;
+    animation: line-transfer 1.8s ease-in-out infinite;
+    transform: translateY(-100%);
+  }
+
+  .status-pulse::before {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin-right: 6px;
+    border-radius: 9999px;
+    background: #c3fae8;
+    box-shadow: 0 0 0 0 rgba(195, 250, 232, 0.5);
+    animation: status-pulse 2s ease-out infinite;
+  }
+}
+
+@keyframes node-signal {
+  0%,
+  100% {
+    border-color: #495057;
+  }
+  45% {
+    border-color: rgba(195, 250, 232, 0.55);
+  }
+}
+
+@keyframes line-transfer {
+  0% {
+    transform: translateY(-100%);
+  }
+  60%,
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes status-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(195, 250, 232, 0.5);
+  }
+  70%,
+  100% {
+    box-shadow: 0 0 0 8px rgba(195, 250, 232, 0);
   }
 }

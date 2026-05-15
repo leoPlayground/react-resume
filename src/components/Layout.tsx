@@ -1,6 +1,6 @@
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div className="max-w-4xl mx-auto p-8 flex flex-col gap-28 md:gap-32 md:my-20 my-4 mb-20">
+    <div className="mx-auto mb-16 flex max-w-5xl flex-col gap-20 p-6 md:my-8 md:gap-24 md:p-8">
       {children}
     </div>
   );

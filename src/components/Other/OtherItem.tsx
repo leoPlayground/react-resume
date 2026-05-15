@@ -1,17 +1,8 @@
-import Image from "next/image";
-import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
-
 import Links from "./Links";
 
-import {OtherProps, ProjectProps} from "@/types";
+import { OtherProps } from "@/types";
 
-const OtherItem = ({
-  name,
-  description,
-  repoUrl,
-  webUrl,
-}: OtherProps) => {
+const OtherItem = ({ name, description, repoUrl, webUrl }: OtherProps) => {
   return (
     <div className="flex flex-col md:flex-row gap-2 md:gap-0">
       <div className="flex flex-col gap-2">

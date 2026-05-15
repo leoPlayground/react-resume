@@ -17,9 +17,9 @@ const ProjectItem = ({
   imgSrc,
 }: ProjectProps) => {
   return (
-    <div className="flex flex-col md:flex-row gap-2 md:gap-0">
+    <div className="flex flex-col gap-3 md:flex-row md:gap-0">
       <div className="flex flex-col gap-2">
-        <div className="flex md:flex-col items-center md:items-start mr-4 gap-6">
+        <div className="mr-4 flex items-center gap-5 md:flex-col md:items-start">
           {imgSrc && (
             <Image
               src={imgSrc}
@@ -40,7 +40,7 @@ const ProjectItem = ({
           </div>
         </div>
       </div>
-      <div className="md:border-GRAY_LIGHT md:border-solid md:border-l-[1px] md:pl-4 markdown flex flex-col w-full gap-2">
+      <div className="interactive-line markdown flex w-full flex-col gap-2 md:border-l-[1px] md:border-solid md:border-GRAY_EXTRAHEAVY md:pl-4">
         <div>
           <blockquote className="whitespace-pre-wrap">{`${description}`}</blockquote>
           <div className="flex gap-1 flex-wrap">
@@ -54,7 +54,9 @@ const ProjectItem = ({
             ))}
           </div>
         </div>
-        <ReactMarkdown remarkPlugins={[remarkGfm]}>{markdown ?? ""}</ReactMarkdown>
+        <ReactMarkdown remarkPlugins={[remarkGfm]}>
+          {markdown ?? ""}
+        </ReactMarkdown>
       </div>
     </div>
   );

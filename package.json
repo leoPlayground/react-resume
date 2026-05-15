@@ -2,10 +2,11 @@
   "name": "resume",
   "version": "0.1.0",
   "private": true,
-  "gh-pages": "https://leopPlayground.github.io/react-resume/",
+  "gh-pages": "https://leoplayground.github.io/react-resume/",
   "scripts": {
     "dev": "next dev",
-    "start": "next start",
+    "start": "next dev",
+    "preview": "npm run build && next start",
     "lint": "next lint",
     "prettier": "prettier --write **/*.{ts,tsx}",
     "tsc": "tsc",

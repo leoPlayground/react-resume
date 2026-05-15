@@ -1,13 +1,101 @@
 {
   "resumeTitle": {
-    "title": "Leo | 개발잡부 | 백발의 코더가 되고 싶은 개발자"
+    "title": "박성민 | AI Healthcare Founder"
   },
 
   "information": {
     "name": "박성민",
     "contact": [
-      { "id": 0, "name": "Email", "href": "magicsm23@gmail.com", "isEmail": true },
-      { "id": 1, "name": "Github", "href": "https://github.com/leoPlayground" }
+      {
+        "id": 0,
+        "name": "Email",
+        "href": "magicsm23@gmail.com",
+        "isEmail": true
+      },
+      { "id": 1, "name": "Github", "href": "https://github.com/leoPlayground" },
+      {
+        "id": 2,
+        "name": "LinkedIn",
+        "href": "https://www.linkedin.com/in/leoplayground/"
+      }
+    ]
+  },
+
+  "branding": {
+    "hero": {
+      "eyebrow": "AI Healthcare Founder · Medication Safety Platform",
+      "title": [
+        "AI 헬스케어 기업을 만들고",
+        "의료 데이터 인프라를 설계합니다."
+      ],
+      "description": "메디밋을 창업하고 운영하며 고령 만성질환자의 약물·건강기능식품 병행 섭취 위험을 줄이는 AI 헬스케어 플랫폼을 구축하고 있습니다.\n복약 정보와 건강기능식품 그리고 검진 데이터를 연결해 의료 현장에서 활용 가능한 건강관리 구조를 만듭니다.",
+      "tags": [
+        "Medimeet Founder",
+        "Medication Safety",
+        "Chronic Care",
+        "AI 건강 분석",
+        "의료 지식 구조"
+      ]
+    },
+    "oneLine": "의료 정보와 사용자 건강 데이터 그리고 AI 분석 엔진을 실제 운영 가능한 헬스케어 기업 구조로 연결합니다.",
+    "about": {
+      "title": "고령 만성질환자와 복약 안전 문제를 깊게 다루는 AI 헬스케어 창업자입니다.",
+      "paragraphs": [
+        "저는 AI 헬스케어 기업 메디밋을 만들고 운영하는 창업자입니다. 의료·헬스케어 도메인의 복잡한 데이터를 제품 구조로 정리하고 사용자 서비스와 운영 도구까지 직접 연결해왔습니다.",
+        "현재는 고령 만성질환자의 복약 정보와 건강기능식품 섭취 정보를 연결해 병행 섭취 위험을 줄이는 안전 필터링 구조를 만들고 있습니다. 의료 지식 관계 구조와 개인 맞춤형 상담 흐름을 중심으로 서비스를 고도화하고 있습니다."
+      ]
+    },
+    "coreService": {
+      "name": "Medimeet",
+      "title": "고령 만성질환자의 건강관리 의사결정을 돕는 AI 기반 안전 필터링 플랫폼",
+      "description": "메디밋은 복약 정보와 건강기능식품 그리고 건강검진 결과와 생활 데이터를 연결해 개인에게 필요한 건강관리 방향을 제안하고 병행 섭취 위험을 사전에 확인할 수 있는 AI 헬스케어 서비스입니다.",
+      "focus": [
+        {
+          "id": 0,
+          "title": "복약 안전",
+          "description": "고령 만성질환자의 약물·건강기능식품 병행 섭취 위험을 사전에 확인할 수 있는 판단 구조를 설계합니다."
+        },
+        {
+          "id": 1,
+          "title": "건강 데이터 해석",
+          "description": "건강검진 결과와 생활 데이터를 사용자가 이해할 수 있는 건강관리 리포트와 상담 흐름으로 변환합니다."
+        },
+        {
+          "id": 2,
+          "title": "의료 지식 구조",
+          "description": "의약품과 성분 그리고 질환과 건강기능식품 및 사용자 상태를 연결해 추천과 위험 분석에 활용 가능한 지식 구조를 구축합니다."
+        }
+      ],
+      "architecture": [
+        "건강 데이터 정규화",
+        "상호작용 위험 분석",
+        "개인 맞춤 상담 흐름",
+        "의료 지식 관계 모델",
+        "운영자 검수 체계",
+        "병원/의원 연계 구조"
+      ]
+    },
+    "impact": [
+      {
+        "id": 0,
+        "title": "AI 건강검진 분석 리포트 구조 설계",
+        "description": "검진 데이터를 사용자가 이해할 수 있는 설명과 리포트로 전환하는 서비스 구조를 설계했습니다."
+      },
+      {
+        "id": 1,
+        "title": "의료 지식그래프 아키텍처 구축",
+        "description": "성분과 질환 그리고 의약품과 건강기능식품 데이터를 추천과 위험 분석에 활용할 수 있는 관계형 지식 구조로 정리했습니다."
+      },
+      {
+        "id": 2,
+        "title": "헬스케어 B2B2C 운영 흐름 기획",
+        "description": "병원/의원과 사용자 그리고 운영자가 함께 사용할 수 있는 플랫폼 흐름과 관리자 기능을 제품 관점에서 정리했습니다."
+      },
+      {
+        "id": 3,
+        "title": "메디밋-랩스와이즈넷 협력 기반 확장",
+        "description": "기능의학 플랫폼 케어톡과의 연계를 고려해 데이터 흐름과 서비스 구조 그리고 의료 현장 요구사항을 함께 설계했습니다."
+      }
     ]
   },
 
@@ -15,32 +103,37 @@
     {
       "id": 0,
       "name": "팜피(주)",
-      "position": "Full-stack Developer",
-      "period": ["2020.09", "2021. 12"]
+      "position": "웹/앱 서비스 개발",
+      "period": ["2020.09", "2021. 12"],
+      "isFeatured": false
     },
     {
       "id": 1,
       "name": "위셀글로벌(주)",
-      "position": "Full-stack Developer",
-      "period": ["2022.01", "2022.03"]
+      "position": "서비스 리뉴얼 및 운영 개발",
+      "period": ["2022.01", "2022.03"],
+      "isFeatured": false
     },
     {
       "id": 2,
       "name": "나길테크(주)",
-      "position": "Full-stack Developer",
-      "period": ["2022.03", "2022.10"]
+      "position": "공공/교육 서비스 개발",
+      "period": ["2022.03", "2022.10"],
+      "isFeatured": false
     },
     {
       "id": 3,
       "name": "Kakao Mobility Parking & Space",
-      "position": "Front-end Developer",
-      "period": ["2022.11", "2025.02"]
+      "position": "모빌리티 운영 플랫폼 개발",
+      "period": ["2022.11", "2025.02"],
+      "isFeatured": true
     },
     {
       "id": 4,
       "name": "(주) 메디밋",
-      "position": "CEO",
-      "period": ["2025. 03", "now"]
+      "position": "창업자 · 서비스 아키텍트",
+      "period": ["2025. 03", "now"],
+      "isFeatured": true
     }
   ],
 
@@ -48,124 +141,158 @@
     {
       "id": 0,
       "name": "세계 한인무역협회 (OKTA)",
-      "description": "해외 한인 무역인 네트워크 웹사이트 지원 사업별 웹 사이트 개발",
+      "description": "해외 한인 무역인 네트워크의 사업별 웹 서비스 구축과 운영 기능 개발",
       "webUrl": "https://www.okta.net/okta/",
       "repoUrl": "",
       "isTeam": true,
+      "isFeatured": false,
       "period": ["2020. 10", "2021. 04"],
-      "stack": ["JAVA", "Spring", "JSP", "Vue.js", "JavaScript", "MySQL"]
+      "stack": [
+        "공공/협회 서비스",
+        "사업별 웹사이트",
+        "운영 기능",
+        "데이터 관리"
+      ]
     },
     {
       "id": 1,
       "name": "DTPIA모바일 APP",
-      "description": "기존에 운영 중인 웹사이트를 기반으로 모바일 웹 및 어플리케이션 제작",
+      "description": "기존 인쇄 주문 서비스를 모바일 환경에 맞게 재구성한 웹/앱 프로젝트",
       "webUrl": "https://m.dtpia.com/#/",
       "repoUrl": "",
       "isTeam": true,
+      "isFeatured": false,
       "period": ["2021. 04", "2021. 07"],
-      "stack": ["node.js", "express.js", "Vue.js", "MsSQL"]
+      "stack": [
+        "모바일 서비스",
+        "주문 흐름",
+        "기존 시스템 연동",
+        "사용자 경험 개선"
+      ]
     },
     {
       "id": 2,
       "name": "한국 민속 어린이 박물관 웹/앱 교육 게임 컨텐츠",
-      "description": "한국 민속 어린이 박물관 상설 교육 게임 컨텐츠 '아다초의 대탈출' 제작",
+      "description": "박물관 상설 전시와 연결되는 어린이 교육형 인터랙티브 콘텐츠 제작",
       "webUrl": "https://nfm-p3.apoc.day/#/",
       "repoUrl": "",
       "isTeam": true,
+      "isFeatured": false,
       "period": ["2021. 08", "2021. 09"],
-      "stack": ["node.js", "express.js", "Vue.js", "Parser3", "MySQL"]
+      "stack": ["교육 콘텐츠", "인터랙션 설계", "전시 연계", "웹/앱 운영"]
     },
     {
       "id": 3,
       "name": "B2B 위탁판매 플랫폼 '샐러매치'",
-      "description": "기존에 운영 중인 웹사이트를 기반으로 웹/앱 전체리뉴얼",
+      "description": "B2B 위탁판매 플랫폼의 서비스 구조와 화면 흐름을 전면 개편",
       "webUrl": "https://sellermatch.co.kr/feed/main.do",
       "repoUrl": "",
       "isTeam": true,
+      "isFeatured": false,
       "period": ["2021. 11", "2022. 01"],
-      "stack": ["JAVA", "JSP", "MySQL"]
+      "stack": ["B2B 플랫폼", "서비스 리뉴얼", "판매자 흐름", "운영 효율화"]
     },
     {
       "id": 4,
       "name": "한그루 프론트앤드",
-      "description": "무료 한글 교육사이트로 화면에 써보고, 자/모 발음을 들어볼 수 있는 서비스 제공",
+      "description": "한글 학습자가 직접 쓰고 들으며 익힐 수 있는 교육 서비스 개발",
       "webUrl": "https://www.hangeulu.kr/",
       "repoUrl": "",
       "isTeam": true,
+      "isFeatured": false,
       "period": ["2022. 03", "2022. 10"],
-      "stack": ["React.js", "Wordpress", "PHP"]
+      "stack": ["교육 서비스", "학습 경험", "콘텐츠 운영", "웹 접근성"]
     },
     {
       "id": 5,
       "name": "NTB 기술 관계망",
-      "description": "한국산업기술에 등록된 공공기술을 다이어그램으로 노출 및 분석",
+      "description": "공공기술 정보를 관계망 형태로 시각화해 탐색과 분석을 돕는 서비스",
       "webUrl": "https://www.ntb.kr/",
       "repoUrl": "",
       "isTeam": true,
+      "isFeatured": false,
       "period": ["2022. 06", "2022. 08"],
-      "stack": ["React.js"]
+      "stack": ["관계망 시각화", "공공 데이터", "탐색 경험", "분석 화면"]
     },
     {
       "id": 6,
       "name": "KPS(Kakao Parking System)",
-      "description": "카카오 파킹 시스템 내 실시간 관제 기능 제공",
+      "description": "주차 운영 현장의 실시간 상태를 확인하고 대응할 수 있는 관제 기능 개발",
       "isTeam": true,
+      "isFeatured": true,
       "period": ["2022. 10", "2022. 10"],
-      "stack": ["Vue.js", "Nuxt.js"]
+      "stack": ["실시간 관제", "운영 플랫폼", "관리자 도구", "모빌리티 서비스"]
     },
     {
       "id": 7,
       "name": "냥씨알림 (AWC-Alert Weather Cat)",
-      "description": "원하는 날, 원하는 시간에 날씨 알림을 받을 수 있는 안드로이드/iOS 어플리케이션",
+      "description": "원하는 날과 시간에 날씨 알림을 받을 수 있는 안드로이드/iOS 어플리케이션",
       "webUrl": "https://awc.teamexithere.com",
       "isTeam": false,
+      "isFeatured": false,
       "period": ["2023. 6", "2023. 8"],
-      "stack": ["Flutter", "Kotlin", "Swift"]
+      "stack": ["개인 서비스", "모바일 앱", "알림 경험", "날씨 데이터"]
     },
     {
       "id": 8,
       "name": "인천공항 발렛 공식 예약 홈페이지",
-      "description": "MVS - 인천공항 T2 공식 발렛 예약 홈페이지",
+      "description": "인천공항 제2터미널 공식 발렛 예약을 위한 사용자 예약 서비스 개발",
       "webUrl": "https://valet.amanopark.co.kr/",
       "isTeam": true,
+      "isFeatured": false,
       "period": ["2023. 02", "2023. 02"],
-      "stack": ["Vue.js", "Nuxt.js"]
+      "stack": ["예약 서비스", "공항 운영", "사용자 여정", "외부 시스템 연동"]
     },
     {
       "id": 9,
       "name": "KPS Kiosk",
-      "description": "KPS - KICC Android 주차 무인정산기",
+      "description": "주차장 무인정산기 환경에서 안정적으로 동작하는 결제/운영 화면 개발",
       "webUrl": "",
       "isTeam": true,
+      "isFeatured": false,
       "period": ["2023. 04", "2023. 05"],
-      "stack": ["Android", "Kotlin", "Vue.js", "Nuxt.js"]
+      "stack": ["키오스크", "무인 정산", "현장 운영", "결제 흐름"]
     },
     {
       "id": 10,
       "name": "Earln",
-      "description": "스마트 빌딩 물류 컨시어지 서비스, 얼른",
+      "description": "스마트 빌딩 내 물류 접수와 정산 및 로봇 배송 관제를 지원하는 운영 서비스",
       "webUrl": "https://earln.co.kr/",
       "isTeam": true,
+      "isFeatured": true,
       "period": ["2023. 11", ""],
-      "stack": ["Vue.js", "Nuxt.js"]
+      "stack": ["물류 운영", "로봇 관제", "정산 흐름", "관리자 시스템"]
     },
     {
       "id": 11,
       "name": "Medimeet",
-      "description": "AI 기반 의료 정보 가이드 플랫폼",
+      "description": "고령 만성질환자의 건강관리 의사결정을 돕는 AI 기반 안전 필터링 플랫폼",
       "webUrl": "https://medimeet.co.kr/",
       "isTeam": true,
+      "isFeatured": true,
       "period": ["2025. 03", "now"],
-      "stack": ["Next.js", "React", "express.js", "Python", "MySQL", "Neo4j"]
+      "stack": [
+        "AI 건강 분석",
+        "안전 필터링",
+        "의료 지식 구조",
+        "개인 맞춤 상담",
+        "운영 플랫폼"
+      ]
     },
     {
       "id": 12,
       "name": "CaretocRX",
-      "description": "기능의학 기반 헬스케어 플랫폼",
+      "description": "병원/의원 현장과 개인 맞춤 건강 데이터를 연결하는 기능의학 기반 헬스케어 플랫폼",
       "webUrl": "https://caretoc.com/",
       "isTeam": true,
+      "isFeatured": true,
       "period": ["2025. 03", "now"],
-      "stack": []
+      "stack": [
+        "병원/의원 연계",
+        "기능의학 운영",
+        "데이터 흐름 설계",
+        "B2B2C 플랫폼"
+      ]
     }
   ],
 
@@ -173,42 +300,42 @@
     {
       "id": 0,
       "name": "아산나눔재단",
-      "description": "WordPress 블로그형 사이트 테마 제작 및 유지보수",
+      "description": "재단 콘텐츠 운영을 위한 웹사이트 유지보수",
       "repoUrl": "",
       "webUrl": "https://asan-nanum.org"
     },
     {
       "id": 1,
       "name": "아산재단 기업가정신 리뷰",
-      "description": "WordPress 블로그형 사이트 테마 제작 및 유지보수",
+      "description": "기업가정신 콘텐츠 운영 사이트 유지보수",
       "repoUrl": "",
       "webUrl": "https://asan-aer.org"
     },
     {
       "id": 2,
       "name": "정법시대 문화재단",
-      "description": "WordPress 블로그형 사이트 테마 제작 및 유지보수",
+      "description": "문화재단 콘텐츠 사이트 유지보수",
       "repoUrl": "",
       "webUrl": "https://jbculture.org"
     },
     {
       "id": 3,
       "name": "스토리메이커",
-      "description": "WordPress 블로그형 사이트 테마 제작 및 유지보수",
+      "description": "브랜드 콘텐츠 사이트 유지보수",
       "repoUrl": "",
       "webUrl": "https://storymaker-company.com"
     },
     {
       "id": 4,
       "name": "인천광역시 교육청 '마을엔'",
-      "description": "WordPress 블로그형 사이트 테마 제작 및 유지보수\nReact.js + Kakao Map API 활용하여 맵핑기능 구현",
+      "description": "교육청 마을교육 자원 정보를 운영하기 위한 사이트 유지보수\n지도 기반 탐색 기능 구현",
       "repoUrl": "",
       "webUrl": "https://maeulngdo.ice.go.kr"
     },
     {
       "id": 5,
       "name": "장코디",
-      "description": "Cafe24기반 쇼핑몰 사이트 제작\nGSAP 라이브러리 사용하여 인터렉티브 효과 구현",
+      "description": "쇼핑몰 브랜드 사이트 제작\n상품 탐색과 브랜드 경험을 강화하는 인터랙션 구현",
       "webUrl": "https://jangcodi.com"
     }
   ],
@@ -233,7 +360,7 @@
       "id": 0,
       "name": "코리아 IT 아카데미",
       "period": ["2020. 02", "2020. 08"],
-      "description": "- C언어로 컴퓨터 프로그래밍 입문\n- JAVA MVC/MVC2 백앤드\n- JSP 프론트앤드\n- OracleDB로 CRUD관리\n- Android Studio 모바일 앱 제작"
+      "description": "- 웹/앱 개발 전반의 기초와 서비스 구현 흐름 학습\n- 서버와 화면 및 데이터베이스를 연결하는 기본 구조 실습\n- 모바일 앱 제작과 데이터 관리 기반 학습"
     }
   ],
 
@@ -249,33 +376,23 @@
   "skill": [
     {
       "id": 0,
-      "name": "Language",
-      "description": "JAVA, JavaScript, PHP, Node.js, Dart"
+      "name": "복약·건강기능식품 병행 섭취 위험",
+      "description": "고령 만성질환자가 약물과 건강기능식품을 함께 섭취할 때 발생할 수 있는 위험을 서비스 구조 안에서 다룹니다."
     },
     {
       "id": 1,
-      "name": "Front-End",
-      "description": "JQuery, React.js, Next.js, Vue.js, Nuxt.js, Phaser.js, Flutter, Wordpress, Bootstrap, Tailwind"
+      "name": "고령 만성질환자 건강관리",
+      "description": "복약 정보와 검진 결과 그리고 생활 데이터를 연결해 장기 관리가 필요한 사용자의 의사결정을 돕습니다."
     },
     {
       "id": 2,
-      "name": "Back-End",
-      "description": "Spring, E-Gov Framework, Express.js, Wordpress"
+      "name": "의료 지식 관계 구조",
+      "description": "의약품과 성분 그리고 질환과 건강기능식품의 관계를 정리해 추천과 위험 분석에 활용할 수 있는 기반을 만듭니다."
     },
     {
       "id": 3,
-      "name": "Platform",
-      "description": "Web, Android, iOS"
-    },
-    {
-      "id": 4,
-      "name": "DevOps",
-      "description": "Amazon Web Service, Google Firebase, Github, Vultr, Jenkins"
-    },
-    {
-      "id": 5,
-      "name": "Tools",
-      "description": "IntelliJ IDEA, WebStorm, Android Studio, Datagrip, Xcode, Figma, Zeplin"
+      "name": "병원/의원 운영 흐름",
+      "description": "사용자 서비스와 관리자 도구를 함께 설계해 의료 현장에서 실제로 운영 가능한 플랫폼 흐름을 만듭니다."
     }
   ]
 }

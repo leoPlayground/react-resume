@@ -6,8 +6,8 @@ import { DataProps } from "@/types";
 const Skill = ({ skill }: Pick<DataProps, "skill">) => {
   return (
     <div>
-      <SectionTitle>Skills</SectionTitle>
-      <div className="flex flex-col gap-24">
+      <SectionTitle>Domain Expertise</SectionTitle>
+      <div className="grid gap-4 md:grid-cols-2">
         {[...skill].map((skill) => (
           <SkillItem key={skill.id} {...skill} />
         ))}

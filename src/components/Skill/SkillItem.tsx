@@ -1,14 +1,10 @@
-import {SkillProps} from "@/types";
+import { SkillProps } from "@/types";
 
 const SkillItem = ({ name, description }: SkillProps) => {
   return (
-    <div className="flex flex-col md:flex-row gap-6 md:gap-0">
-      <div className="flex flex-col gap-2">
-        <div className="flex flex-col">
-          <h3>{name}</h3>
-        </div>
-        <span className="whitespace-pre-wrap">{`${description}`}</span>
-      </div>
+    <div className="interactive-card rounded-lg border border-GRAY_EXTRAHEAVY bg-[#12161b] p-4">
+      <h3 className="pb-2 text-xl text-white">{name}</h3>
+      <span className="whitespace-pre-wrap text-sm leading-7 text-GRAY_LIGHT">{`${description}`}</span>
     </div>
   );
 };

@@ -2,25 +2,26 @@ import "@/styles/globals.css";
 import { DefaultSeo } from "next-seo";
 import { ThemeProvider } from "next-themes";
 import type { AppProps } from "next/app";
-import {ResumeProvider} from "@/components/context/context";
-import {prefix} from "@/config/config";
+import { ResumeProvider } from "@/components/context/context";
+import { prefix } from "@/config/config";
 
 const DEFAULT_SEO = {
-  title: "Leo Park | Front-End Dev",
-  description: "안녕하세요, 개발잡부. 프론트엔드 개발자 박성민입니다.",
+  title: "박성민 | AI 헬스케어 기술 창업자",
+  description:
+    "메디밋을 운영하며 AI 건강 분석과 안전 필터링 그리고 지식그래프 기반 추천 시스템을 설계하는 풀스택 아키텍트입니다.",
   canonical: "https://leoplayground.github.io/react-resume/",
   openGraph: {
     type: "website",
     locale: "ko_KR",
     url: "https://leoplayground.github.io/react-resume/",
-    title: "Leo Park | Front-End Dev",
-    site_name: "Leo Park | Front-End Dev",
+    title: "박성민 | AI 헬스케어 기술 창업자",
+    site_name: "박성민 | AI 헬스케어 기술 창업자",
     images: [
       {
         url: "/share.png",
         width: 285,
         height: 167,
-        alt: "Leo Park | Front-End Dev",
+        alt: "박성민 | AI 헬스케어 기술 창업자",
       },
     ],
   },
@@ -33,11 +34,11 @@ const DEFAULT_SEO = {
   additionalMetaTags: [
     {
       name: "Leo Park's Resume",
-      content: "Leo Park | Front-End Dev",
+      content: "AI Healthcare Founder & Full-stack Architect",
     },
     {
       name: "Leo Park's Resume",
-      content: "Leo Park | Front-End Dev",
+      content: "Medimeet Founder",
     },
     {
       name: "viewport",
@@ -48,9 +49,9 @@ const DEFAULT_SEO = {
 
 const App = ({ Component, pageProps }: AppProps) => {
   return (
-    <ResumeProvider value={{prefix}}>
+    <ResumeProvider value={{ prefix }}>
       <DefaultSeo {...DEFAULT_SEO} />
-      <ThemeProvider attribute="class">
+      <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
         <Component {...pageProps} />
       </ThemeProvider>
     </ResumeProvider>

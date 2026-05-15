@@ -5,30 +5,17 @@ import { DataProps } from "@/types";
 
 const Project = ({ project }: Pick<DataProps, "project">) => {
   return (
-    <>
-      <div>
-        <SectionTitle>Project</SectionTitle>
-        <div className="flex flex-col gap-24">
-          {[...project]
-            .reverse()
-            .filter((project) => project.isTeam)
-            .map((project) => (
-              <ProjectItem key={project.id} {...project} />
-            ))}
-        </div>
+    <div>
+      <SectionTitle>Selected Work</SectionTitle>
+      <div className="flex flex-col gap-16">
+        {[...project]
+          .reverse()
+          .filter((project) => project.isTeam && project.isFeatured)
+          .map((project) => (
+            <ProjectItem key={project.id} {...project} />
+          ))}
       </div>
-      <div>
-        <SectionTitle>Personal Project</SectionTitle>
-        <div className="flex flex-col gap-24">
-          {[...project]
-            .reverse()
-            .filter((project) => !project.isTeam)
-            .map((project) => (
-              <ProjectItem key={project.id} {...project} />
-            ))}
-        </div>
-      </div>
-    </>
+    </div>
   );
 };
 

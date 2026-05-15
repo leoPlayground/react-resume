@@ -5,12 +5,43 @@ export interface InformationProps {
   imgSrc?: string;
 }
 
+export interface BrandingProps {
+  hero: {
+    eyebrow: string;
+    title: string[];
+    description: string;
+    tags: string[];
+  };
+  oneLine: string;
+  about: {
+    title: string;
+    paragraphs: string[];
+  };
+  coreService: {
+    name: string;
+    title: string;
+    description: string;
+    focus: {
+      id: number;
+      title: string;
+      description: string;
+    }[];
+    architecture: string[];
+  };
+  impact: {
+    id: number;
+    title: string;
+    description: string;
+  }[];
+}
+
 export interface WorkExperienceProps {
   id: number;
   name: string;
   description?: string;
   position: string;
   period: string[];
+  isFeatured?: boolean;
   markdown?: string;
   imgSrc?: string;
 }
@@ -19,20 +50,21 @@ export interface ProjectProps {
   id: number;
   name: string;
   description: string;
-  repoUrl: string;
+  repoUrl?: string;
   webUrl?: string;
   isTeam?: boolean;
+  isFeatured?: boolean;
   period: string[];
   stack: string[];
   markdown?: string;
   imgSrc?: string;
 }
 
-export interface OtherProps{
+export interface OtherProps {
   id: number;
   name: string;
   description: string;
-  repoUrl: string;
+  repoUrl?: string;
   webUrl?: string;
 }
 
@@ -55,6 +87,7 @@ export interface DataProps {
     title: string;
   };
   information: InformationProps;
+  branding: BrandingProps;
   workExperience: WorkExperienceProps[];
   project: ProjectProps[];
   other: OtherProps[];
