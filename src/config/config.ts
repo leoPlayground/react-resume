@@ -1,4 +1,4 @@
 export const prefix =
-  process.env.NODE_ENV === "production"
+  process.env.NEXT_PUBLIC_GITHUB_PAGES === "true"
     ? "https://leoplayground.github.io/react-resume"
     : "";

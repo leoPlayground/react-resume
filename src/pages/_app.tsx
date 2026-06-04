@@ -6,22 +6,22 @@ import { ResumeProvider } from "@/components/context/context";
 import { prefix } from "@/config/config";
 
 const DEFAULT_SEO = {
-  title: "Leo Park | 의료 AI 시스템을 고민하는 Founder",
+  title: "Leo Park | Founder of Medimeet",
   description:
-    "고령 만성질환자의 복약 안전 문제를 출발점으로 의료 데이터를 관계와 맥락 중심으로 해석하는 AI 헬스케어 Founder입니다.",
+    "직접 만들고 실행하는 창업자 Leo의 개인 소개 페이지입니다. 문제를 발견하고, 기술로 구현하고, 시장에서 검증하는 과정을 다룹니다.",
   canonical: "https://leoplayground.github.io/react-resume/",
   openGraph: {
     type: "website",
     locale: "ko_KR",
     url: "https://leoplayground.github.io/react-resume/",
-    title: "Leo Park | 의료 AI 시스템을 고민하는 Founder",
-    site_name: "Leo Park | 의료 AI 시스템을 고민하는 Founder",
+    title: "Leo Park | Founder of Medimeet",
+    site_name: "Leo Park | Founder of Medimeet",
     images: [
       {
         url: "/share.png",
         width: 285,
         height: 167,
-        alt: "Leo Park | 의료 AI 시스템을 고민하는 Founder",
+        alt: "Leo Park | Founder of Medimeet",
       },
     ],
   },
@@ -34,7 +34,7 @@ const DEFAULT_SEO = {
   additionalMetaTags: [
     {
       name: "Leo Park's Resume",
-      content: "Healthcare AI Founder and Systems Thinker",
+      content: "Founder of Medimeet",
     },
     {
       name: "Leo Park's Resume",
@@ -51,7 +51,7 @@ const App = ({ Component, pageProps }: AppProps) => {
   return (
     <ResumeProvider value={{ prefix }}>
       <DefaultSeo {...DEFAULT_SEO} />
-      <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
+      <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false}>
         <Component {...pageProps} />
       </ThemeProvider>
     </ResumeProvider>

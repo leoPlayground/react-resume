@@ -8,12 +8,12 @@ const WorkExperience = ({
 }: Pick<DataProps, "workExperience">) => {
   return (
     <div>
-      <SectionTitle>System Building</SectionTitle>
+      <SectionTitle>Career Path</SectionTitle>
       
-      <div className="mb-16 border-l-2 border-PRIMARY_HEAVY pl-6">
-        <p className="text-xl leading-relaxed text-white font-medium">
-          대규모 실시간 시스템과 물리적 현장의 운영 파이프라인을 다뤘던 경험은<br />
-          이후 의료 AI의 구조를 현장에 맞게 설계하고 예방 시스템을 구축하는 든든한 기반이 되었습니다.
+      <div className="mb-16 border-l-2 border-[#18a689] pl-6">
+        <p className="text-xl leading-relaxed text-[#17332d] font-medium">
+          서비스 구현 경험은 운영 시스템과 헬스케어 제품으로 이어졌고<br />
+          지금은 메디밋을 만들며 문제 정의와 실행을 함께 맡고 있습니다.
         </p>
       </div>
 

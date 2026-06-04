@@ -6,7 +6,7 @@ import { DataProps } from "@/types";
 const Skill = ({ skill }: Pick<DataProps, "skill">) => {
   return (
     <div>
-      <SectionTitle>Research Domains</SectionTitle>
+      <SectionTitle>Working Areas</SectionTitle>
       <div className="grid gap-4 md:grid-cols-2">
         {[...skill].map((skill) => (
           <SkillItem key={skill.id} {...skill} />

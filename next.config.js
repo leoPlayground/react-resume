@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
-const isProduction = process.env.NODE_ENV === "production";
+const isGithubPages = process.env.GITHUB_PAGES === "true";
 const nextConfig = {
   reactStrictMode: true,
-  basePath: isProduction ? "/react-resume" : "",
+  basePath: isGithubPages ? "/react-resume" : "",
   trailingSlash: true,
   images: {
     unoptimized: true,
@@ -21,7 +21,7 @@ const nextConfig = {
   },
 };
 
-if (isProduction) {
+if (isGithubPages) {
   nextConfig.assetPrefix = "https://leoplayground.github.io/react-resume";
 }
 

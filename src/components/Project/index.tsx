@@ -6,8 +6,8 @@ import { DataProps } from "@/types";
 const Project = ({ project }: Pick<DataProps, "project">) => {
   return (
     <div>
-      <SectionTitle>Applied Work</SectionTitle>
-      <div className="flex flex-col gap-16">
+      <SectionTitle>Representative Work</SectionTitle>
+      <div className="flex flex-col">
         {[...project]
           .reverse()
           .filter((project) => project.isTeam && project.isFeatured)

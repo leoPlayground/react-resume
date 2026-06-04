@@ -28,7 +28,7 @@ const ScrollProgress = () => {
   return (
     <div className="w-full h-1 fixed top-0 left-0 z-10" ref={progressRef}>
       <div
-        className="h-full bg-gradient-to-r from-lime-500 to-cyan-500"
+        className="h-full bg-gradient-to-r from-[#18a689] via-[#e7b15c] to-[#8ecae6]"
         style={{ width: width + "%" }}
       ></div>
     </div>

@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="ko">
       <Head />
-      <body className="break-keep bg-BLACK font-normal text-white selection:bg-PRIMARY_LIGHT selection:text-BLACK">
+      <body className="break-keep bg-[#f8fafc] font-normal text-[#111827] selection:bg-[#2563eb] selection:text-white">
         <Main />
         <NextScript />
       </body>

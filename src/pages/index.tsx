@@ -1,50 +1,23 @@
-import fsPromises, * as fs from "fs/promises";
+import fs from "fs/promises";
 import path from "path";
 
 import { NextPage } from "next";
 
 import Branding from "@/components/Branding";
-import Certificate from "@/components/Certificate";
-import Education from "@/components/Education";
 import Footer from "@/components/Footer";
 import Layout from "@/components/Layout";
-import Project from "@/components/Project";
-import ResumeTitle from "@/components/ResumeTitle";
 import ScrollProgress from "@/components/ScrollProgress";
-import WorkExperience from "@/components/WorkExperience";
-import {
-  DataProps,
-  InformationProps,
-  ProjectProps,
-  WorkExperienceProps,
-} from "@/types";
-import Skill from "@/components/Skill";
+import { DataProps, InformationProps } from "@/types";
 // import Award from "@/components/Award";
 
-const Home: NextPage<DataProps> = ({
-  resumeTitle,
-  information,
-  branding,
-  workExperience,
-  project,
-  education,
-  certificate,
-  skill,
-  award,
-}) => {
+type FounderPageProps = Pick<DataProps, "information" | "branding">;
+
+const Home: NextPage<FounderPageProps> = ({ information, branding }) => {
   return (
     <>
       <ScrollProgress />
-      <ResumeTitle resumeTitle={resumeTitle} />
       <Layout>
         <Branding branding={branding} contact={information.contact} />
-        <Skill skill={skill} />
-        <Project project={project} />
-        <WorkExperience workExperience={workExperience} />
-        {/* Education and Certificate hidden to maintain founder story flow */}
-        {/* <Education education={education} /> */}
-        {/* <Certificate certificate={certificate} /> */}
-        {/* <Award award={award} /> */}
       </Layout>
       <Footer contact={information.contact} name={information.name} />
     </>
@@ -55,55 +28,25 @@ export default Home;
 
 export const getStaticProps = async () => {
   const filePath = path.join(process.cwd(), "data.json");
-  const jsonData = await fsPromises.readFile(filePath, "utf8");
+  const jsonData = await fs.readFile(filePath, "utf8");
   const objectData = JSON.parse(jsonData);
 
-  const informationWithData = getImgSrc({
-    section: "information",
-    item: await getMd({
-      section: "information",
-      item: { ...objectData.information },
-    }),
-  });
-
-  const workExperienceWithData = objectData.workExperience.map(
-    async (item: WorkExperienceProps) => {
-      return getImgSrc({
-        section: "workExperience",
-        item: await getMd({ section: "workExperience", item }),
-      });
-    }
+  const informationWithData = getImgSrc(
+    await getMd({ ...objectData.information })
   );
-
-  const projectWithData = objectData.project.map(async (item: ProjectProps) => {
-    return getImgSrc({
-      section: "project",
-      item: await getMd({ section: "project", item }),
-    });
-  });
 
   return {
     props: {
-      ...objectData,
       information: await informationWithData,
-      workExperience: await Promise.all(workExperienceWithData),
-      project: await Promise.all(projectWithData),
+      branding: objectData.branding,
     },
   };
 };
 
-const getMd = async ({
-  section,
-  item,
-}: {
-  section: string;
-  item: InformationProps | ProjectProps | WorkExperienceProps;
-}) => {
+const getMd = async (item: InformationProps) => {
   try {
     const markdownModule = await import(
-      `../../public/markdown/${section}/${
-        "id" in item ? item.id : "introduce"
-      }.md`
+      "../../public/markdown/information/introduce.md"
     );
     return { ...item, markdown: markdownModule.default as string };
   } catch {
@@ -112,14 +55,8 @@ const getMd = async ({
   }
 };
 
-const getImgSrc = async ({
-  section,
-  item,
-}: {
-  section: string;
-  item: InformationProps | ProjectProps | WorkExperienceProps;
-}) => {
-  const imgSrc = `/images/${section}/${"id" in item ? item.id : "profile"}.png`;
+const getImgSrc = async (item: InformationProps) => {
+  const imgSrc = "/images/information/profile.png";
   const filePath = path.join(process.cwd(), "public", imgSrc);
   try {
     await fs.stat(filePath);
