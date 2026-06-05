@@ -284,3 +284,77 @@ For CI servers and headless environments, generate a new token with firebase log
 [debug] [2026-06-04T06:11:09.114Z] > authorizing via signed-in user (magicsm23@gmail.com)
 [debug] [2026-06-04T06:11:10.031Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/hivits-app/services/firebasedataconnect.googleapis.com 200
 [debug] [2026-06-04T06:11:10.031Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/hivits-app/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-06-05T01:26:31.242Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-05T01:26:31.245Z] > authorizing via signed-in user (magicsm23@gmail.com)
+[debug] [2026-06-05T01:26:31.249Z] Checked if tokens are valid: false, expires at: 1780557031541
+[debug] [2026-06-05T01:26:31.249Z] Checked if tokens are valid: false, expires at: 1780557031541
+[debug] [2026-06-05T01:26:31.249Z] > refreshing access token with scopes: []
+[debug] [2026-06-05T01:26:31.250Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-06-05T01:26:31.250Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-06-05T01:26:31.255Z] Checked if tokens are valid: false, expires at: 1780557031541
+[debug] [2026-06-05T01:26:31.255Z] Checked if tokens are valid: false, expires at: 1780557031541
+[debug] [2026-06-05T01:26:31.255Z] > refreshing access token with scopes: []
+[debug] [2026-06-05T01:26:31.255Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-06-05T01:26:31.255Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-06-05T01:26:31.256Z] Checked if tokens are valid: false, expires at: 1780557031541
+[debug] [2026-06-05T01:26:31.256Z] Checked if tokens are valid: false, expires at: 1780557031541
+[debug] [2026-06-05T01:26:31.256Z] > refreshing access token with scopes: []
+[debug] [2026-06-05T01:26:31.256Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-06-05T01:26:31.256Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-06-05T01:26:31.261Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-05T01:26:31.261Z] > authorizing via signed-in user (magicsm23@gmail.com)
+[debug] [2026-06-05T01:26:31.261Z] Checked if tokens are valid: false, expires at: 1780557031541
+[debug] [2026-06-05T01:26:31.261Z] Checked if tokens are valid: false, expires at: 1780557031541
+[debug] [2026-06-05T01:26:31.261Z] > refreshing access token with scopes: []
+[debug] [2026-06-05T01:26:31.261Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-06-05T01:26:31.261Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-06-05T01:26:31.262Z] Checked if tokens are valid: false, expires at: 1780557031541
+[debug] [2026-06-05T01:26:31.262Z] Checked if tokens are valid: false, expires at: 1780557031541
+[debug] [2026-06-05T01:26:31.262Z] > refreshing access token with scopes: []
+[debug] [2026-06-05T01:26:31.263Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-06-05T01:26:31.263Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-06-05T01:26:31.263Z] Checked if tokens are valid: false, expires at: 1780557031541
+[debug] [2026-06-05T01:26:31.263Z] Checked if tokens are valid: false, expires at: 1780557031541
+[debug] [2026-06-05T01:26:31.263Z] > refreshing access token with scopes: []
+[debug] [2026-06-05T01:26:31.263Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-06-05T01:26:31.263Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-06-05T01:26:31.480Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-06-05T01:26:31.480Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-06-05T01:26:31.502Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/hivits-app/services/firebaseio.com [none]
+[debug] [2026-06-05T01:26:31.502Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/hivits-app/services/firebaseio.com x-goog-quota-user=projects/hivits-app
+[debug] [2026-06-05T01:26:31.505Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-06-05T01:26:31.505Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-06-05T01:26:31.520Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/hivits-app/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-06-05T01:26:31.520Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/hivits-app/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/hivits-app
+[debug] [2026-06-05T01:26:31.521Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-06-05T01:26:31.521Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-06-05T01:26:31.533Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/hivits-app/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-06-05T01:26:31.533Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/hivits-app/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/hivits-app
+[debug] [2026-06-05T01:26:31.534Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-06-05T01:26:31.534Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-06-05T01:26:31.545Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/hivits-app/services/firebaseio.com [none]
+[debug] [2026-06-05T01:26:31.545Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/hivits-app/services/firebaseio.com x-goog-quota-user=projects/hivits-app
+[debug] [2026-06-05T01:26:31.546Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-06-05T01:26:31.546Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-06-05T01:26:31.556Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/hivits-app/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-06-05T01:26:31.557Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/hivits-app/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/hivits-app
+[debug] [2026-06-05T01:26:31.557Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-06-05T01:26:31.558Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-06-05T01:26:31.569Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/hivits-app/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-06-05T01:26:31.569Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/hivits-app/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/hivits-app
+[debug] [2026-06-05T01:26:32.624Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/hivits-app/services/firebaseio.com 403
+[debug] [2026-06-05T01:26:32.624Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/hivits-app/services/firebaseio.com [omitted]
+[debug] [2026-06-05T01:26:32.675Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/hivits-app/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-06-05T01:26:32.675Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/hivits-app/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-06-05T01:26:32.765Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/hivits-app/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-06-05T01:26:32.765Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/hivits-app/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-06-05T01:26:33.665Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/hivits-app/services/firebaseio.com 403
+[debug] [2026-06-05T01:26:33.665Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/hivits-app/services/firebaseio.com [omitted]
+[debug] [2026-06-05T01:26:33.694Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/hivits-app/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-06-05T01:26:33.694Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/hivits-app/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-06-05T01:26:33.745Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/hivits-app/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-06-05T01:26:33.745Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/hivits-app/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-06-05T01:26:33.754Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-05T01:26:33.754Z] > authorizing via signed-in user (magicsm23@gmail.com)
+[debug] [2026-06-05T01:26:33.755Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-05T01:26:33.755Z] > authorizing via signed-in user (magicsm23@gmail.com)
